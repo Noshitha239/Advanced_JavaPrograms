@@ -1,0 +1,3 @@
+127.0.0.1 - - [21/Nov/2023:21:40:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Nov/2023:21:40:27 +0530] "GET /car_service_system/carDetailsSuccess.jsp HTTP/1.1" 200 572
+0:0:0:0:0:0:0:1 - - [21/Nov/2023:21:40:27 +0530] "GET /favicon.ico HTTP/1.1" 404 762

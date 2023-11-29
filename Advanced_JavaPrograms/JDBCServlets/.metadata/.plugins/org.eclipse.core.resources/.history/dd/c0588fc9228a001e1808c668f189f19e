@@ -1,0 +1,11 @@
+
+public class employeeDetail {
+    private int id;
+    private String role;
+    private String department;
+	public employeeDetail() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+    
+}                             

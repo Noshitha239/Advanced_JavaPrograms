@@ -1,0 +1,20 @@
+
+import org.hibernate.cfg.configuration;
+public class MainApp {
+      public static void main(String[] args) {
+		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class).buildSessionFactory();
+		Session session =factory.getCurrentSession();
+		
+		Student tempStudent  = Student("Yashas","R","yashas@gmail.com");
+		System.out.println("Student object is created");
+		
+		session.beginTransaction();
+		System.out.println("Transaction has begun");
+		
+		session.save(tempStudent);
+		System.out.println("Saving the object");
+		
+		session.getTransaction().commit();
+		System.out.println("Student object is saved");
+	}
+}

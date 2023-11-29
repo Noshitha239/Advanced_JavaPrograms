@@ -1,0 +1,11 @@
+127.0.0.1 - - [10/Nov/2023:13:03:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:11 +0530] "GET /resultmvc/ HTTP/1.1" 200 268
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:11 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:15 +0530] "GET /resultmvc/GetResult?id= HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:15 +0530] "GET /resultmvc/error.html HTTP/1.1" 200 301
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:25 +0530] "GET /resultmvc/GetResult?id= HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:28 +0530] "GET /resultmvc/GetResult?id=2 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:29 +0530] "GET /resultmvc/success.jsp HTTP/1.1" 200 151
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:52 +0530] "GET /resultmvc/GetResult?id= HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:56 +0530] "GET /resultmvc/GetResult?id=1 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Nov/2023:13:03:56 +0530] "GET /resultmvc/success.jsp HTTP/1.1" 200 155

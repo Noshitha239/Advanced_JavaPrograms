@@ -1,0 +1,31 @@
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Employee")
+public class Employee {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="emp_id")
+	private int empId;
+	@Column(name="emp_name")
+	private String empName;
+	@Column(name="emp_salary")
+	private int empSalary;
+	@Column(name="emp_address")
+	private String empAddress;
+	
+	public Employee(int empId, String empName, int empSalary, String empAddress) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.empSalary = empSalary;
+		this.empAddress = empAddress;
+	}
+	
+
+}

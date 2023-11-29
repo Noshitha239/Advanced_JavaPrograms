@@ -1,0 +1,9 @@
+
+public class student1 {
+      private int id;
+      private String first_name;
+      private String last_name;
+      private String email;
+      private student_details_id;
+      
+}
